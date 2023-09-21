@@ -1,0 +1,97 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    height: fit-content;
+  }
+  
+
+  .brand {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: orange;
+    padding: 0px 10px;
+    border-radius: 2px;
+  }
+  
+  .brand p {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  
+
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+  }
+  
+
+  .content {
+    text-align: left;
+    padding: 0px 8px;
+  }
+  
+  .content p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+
+.title{
+    font-size: 18px;
+}
+.dis{
+font-size: 15px;
+  }
+ 
+  .price {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    color: #e74c3c;
+  }
+  
+  .price p {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .price p:first-child {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 5px;
+  }
+  
+.detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+    background-color: lightgray;
+    border-radius: 2px;
+}
+
+.detail p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.btn{
+  font-weight: bold;
+  background-color: orange;
+  border: none;
+border-radius: 2px;
+  cursor: pointer;
+  padding: 15px 20px;
+}

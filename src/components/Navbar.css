@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+display:  flex;
+justify-content: center;
+background-color: lightgray;
+align-items: center;
+margin:0 auto;
+padding: 0 20px;
+}
+
+.logo{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: orange;
+}
+
+.logo a{
+    text-decoration: none;
+    color: blue;
+}
+
+.logo a:hover{
+    color: orange;
+}
